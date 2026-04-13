@@ -30,7 +30,19 @@ Use header: Authorization: Bearer YOUR_PAT_HERE
 
 ### For Claude Code users
 
-If you use Claude Code, the repo can be cloned locally and read directly from disk — no PAT needed for local sessions. Save a memory note so Claude Code knows where to find it.
+If you use Claude Code, the repo can be cloned locally and read directly from disk — no PAT needed for local sessions.
+
+To get started, paste this prompt into Claude Code:
+
+```
+I have a "second brain" template repo at github.com/YOUR_USERNAME/YOUR_REPO (private).
+Clone it locally, read BOOTSTRAP.md for instructions, then help me fill in the context
+files (profile.md, work.md, projects.md, etc.) with my information. After we're done,
+commit and push the changes. Also, save a memory note so you remember this repo exists
+and where to find it in future sessions.
+```
+
+Claude Code will clone the repo, walk you through populating each file, and set up persistent memory so future sessions know where your second brain lives.
 
 ## Repo Structure
 
